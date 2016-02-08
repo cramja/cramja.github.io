@@ -1,0 +1,11 @@
+title: marc's page
+email: marc.spehlmann@gmail.com
+description: marc's blog. I write about my work, research, and ideas.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://spehl.net"
+github_username:  cramja
+
+# Build settings
+markdown: kramdown
+paginate: 5
+gems: [jekyll-paginate]

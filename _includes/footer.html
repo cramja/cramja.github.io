@@ -1,0 +1,24 @@
+<footer class="site-footer">
+
+  <div class="wrapper-small">
+
+    <p class="footer-desc">{{ site.description }}</p>
+
+    <div class="social-media-list">
+      <div class="list-element left">
+        <a href="/about/"><span class="icon icon--info">{% include icon-info.svg %}</span><span class="username">about</span></a>
+      </div>
+      {% if site.email %}
+      <div class="list-element center">
+        {% include icon-email.html username="email" %}
+      {% endif %}
+      </div>
+      {% if site.github_username %}
+      <div class="list-element right">
+        {% include icon-github.html username=site.github_username %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+</footer>
