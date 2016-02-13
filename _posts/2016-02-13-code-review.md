@@ -17,7 +17,7 @@ The index structure I wrote is simple. It keeps track of the relation's minimum 
 CREATE SMA ON someTable
 SELECT someAttribute as x, MIN(x), MAX(x), COUNT(x)
 WHERE 1 
-GROUP BY x;
+GROUP BY someOtherAttribute;
 {% endhighlight %}
 
 Our index is simpler, keeping only min and max and not allowing for GROUP BYs.
