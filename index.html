@@ -9,7 +9,9 @@ layout: default
       <li>
         <div>
           <a class="post-list-header" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <div class="post-list-date">{{ post.date | date: "%-d %B %Y" }}</div>
+          <div class="post-list-date">{{ post.date | date: "%-d %B %Y" }}
+          {% for category in post.categories %}<span class="post-category"> {{ category }}</span>{% endfor %}
+          </div>
         </div>
         {% if post.short %}
           <p class="post-list-short">{{ post.short }}</p>
