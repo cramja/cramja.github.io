@@ -9,7 +9,7 @@ short: This morning when I sat down to write, I started thinking about code. Dar
 This morning when I sat down to write, I started thinking about code. Darn coffee, you got me into this.
 
 ## Context
-I've been writing an indexing structure for Quickstep, an open source in-memory database. Quickstep is in a stage of development where it's more than an experimental project, but not a full-fledged DBMS. 
+I've been writing an indexing structure for [Quickstep](https://github.com/pivotalsoftware/quickstep), an open source in-memory database. Quickstep is in a stage of development where it's more than an experimental project, but not a full-fledged DBMS. 
 
 The index structure I wrote is simple. It keeps track of the relation's minimum and maximum values for each column. This allows queries to quickly be skipped if they fall outside the range of the table. This index, which we call 'SMA' for small materialized aggregates, is a simplification of the index described in this [paper](http://www.vldb.org/conf/1998/p476.pdf). A full-featured SMA will be able to index over arbitrary groupings like the following example:
 
@@ -47,9 +47,12 @@ It's not like I didn't. Most of the code was commented. I had an agenda for the 
 
 The trouble was the conference room did not have an HDMI adapter so my laptop was useless. Thankfully another team member loaned me theres. 
 
-More importantly, when we could look at the code, it was only then that I realized the deficiencies which I had previously brushed off as minor things. 
+More importantly, when we could look at the code, it was only then that I realized the deficiencies which I had previously brushed off as minor things.
+
 * Some comments were based on code which had been refactored and so didn't make sense.
+
 * It's hard to explain code without jumping around spuratically in the file.
+
 * The unit tests were well-commented and almost did not need explanation. 
 
 Next time, I would be sure to have an adapter for my laptop. Also, to write down better comments.
@@ -68,7 +71,9 @@ I can poke at them now.
 
 2. I approached this feature as an extension to the pre-existing index framework. However, this framework was designed with fully-fledged b-trees in mind and therefore might be too heavy weight for what this really is. Perhaps considering storing this information in the catalog would have been a better option.
 
-Overall, I developed these questions only after the code review because of the discussion. Some of the best comments which were discussed didn't have to do with code or style, but rather the high level usefulness of the index. We chatted about cost in terms of painfulness to program versus the performance improvement obtained from that feature. Effectively, to look at the requested feature and consider what are the most easily obtained benefits. this manner of seeing the forest for the trees was something I needed the team for- they pulled my thoughts out of the quicksand of code.
+Overall, I developed these questions only after the code review because of the discussion. Some of the best comments which were discussed didn't have to do with code or style, but rather the high level usefulness of the index. We chatted about cost in terms of painfulness to program versus the performance improvement obtained from that feature. That is, to look at the requested feature and consider the most easily obtained benefits. 
+
+This manner of seeing the forest for the trees was something I needed the team for- they pulled my thoughts out of the quicksand of code.
 
 ## Where to go
 
@@ -78,7 +83,9 @@ Overall, I developed these questions only after the code review because of the d
 
 **Talk about the code to keep ideas fresh.**
 
-I learned the importance of reflecting on use cases and cost-benefits of writing in certain functionality. In essence, I had ignored this piece when writing the code because I was so lost in the large code base of Quickstep and in a new language. Drowning in the deep end as it were. I have a little better ability now to doggy paddle my way out of this. Still, I think these code reviews and the discussion made me a better swimmer than treading water all by myself.
+I learned the importance of reflecting on use cases and cost-benefits of writing in certain functionality. In essence, I had ignored this piece when writing the code because I was so lost in the large code base of Quickstep and in a new language. Drowning in the deep end as it were.
+
+I have a little better ability now to doggy paddle my way out of this.
 
 
 {% comment %}
