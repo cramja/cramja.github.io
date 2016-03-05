@@ -4,6 +4,8 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+**One Hundred Years of Solitude** - Gabriel García Márquez
+
 **Body By Science** - John Little
 
 **The Origin of Consciousness in the Breakdown of the Bicameral Mind** - Julian Jaynes
