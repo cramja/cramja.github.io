@@ -4,7 +4,7 @@ permalink: /about/
 title: About
 ---
 
-I am a graduate student in Computer Science at the University of Wisconsin-Madison. I specialize in databases, and random facts about health foods. I use this site to write about whatever I want. It's a blog.
+I am a graduate student in Computer Science at the University of Wisconsin-Madison. I specialize in databases, running with poor form, and random facts about health foods. I use this site to write about whatever I want. It's a blog.
 
 Here's a couple of links where you can do things:
 

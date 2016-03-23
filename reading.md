@@ -4,6 +4,10 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+**Jesus' Son** - Denis Johnson
+
+**Our Only World** - Wendell Berry
+
 **One Hundred Years of Solitude** - Gabriel García Márquez
 
 **Body By Science** - John Little
