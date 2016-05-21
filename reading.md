@@ -4,6 +4,10 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+**How to Write a Thesis** - Umberto Eco
+
+**Zorba the Greek** - Nikos Kazantzakis
+
 **Jesus' Son** - Denis Johnson
 
 **Our Only World** - Wendell Berry
