@@ -4,6 +4,10 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+**Letters from a Stoic** - Lucius Seneca trans. Robin Campbell
+
+**Godel, Escher, Bach** - Douglas Hofstadter
+
 **How to Write a Thesis** - Umberto Eco
 
 **Zorba the Greek** - Nikos Kazantzakis
