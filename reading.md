@@ -4,6 +4,8 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+**You Can Farm** - Joel Salatin
+
 **Letters from a Stoic** - Lucius Seneca trans. Robin Campbell
 
 **Godel, Escher, Bach** - Douglas Hofstadter
