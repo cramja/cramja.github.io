@@ -4,6 +4,16 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+**Folks, This Ain't Normal** - Joel Salatin
+
+**Open to Desire** - Mark Epstein
+
+**10% Happier** - Dan Harris
+
+**Going on Being** - Mark Epstein
+
+**Everything I Want to Do Is Illegal** - Joel Salatin
+
 **You Can Farm** - Joel Salatin
 
 **Letters from a Stoic** - Lucius Seneca trans. Robin Campbell
