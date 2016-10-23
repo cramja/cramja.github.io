@@ -4,6 +4,8 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+**Lies My Teacher Told Me: Everything Your American History Textbook Got Wrong** - James Loewen
+
 **Folks, This Ain't Normal** - Joel Salatin
 
 **Open to Desire** - Mark Epstein
