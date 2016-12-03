@@ -4,6 +4,10 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+**Rich Dad's Guide to Investing** - Robert Kiyosaki
+
+**Rich Dad, Poor Dad** - Robert Kiyosaki
+
 **Lies My Teacher Told Me: Everything Your American History Textbook Got Wrong** - James Loewen
 
 **Folks, This Ain't Normal** - Joel Salatin
