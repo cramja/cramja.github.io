@@ -21,7 +21,7 @@ short: I read about two books each month this year. Here's a recap of the books 
 
 It's interesting that my favorite books were fiction, even though the majority of books I read are non-fiction.
 
-# Categories
+# Topics
 
 ## Farming/Food Systems
 
@@ -50,6 +50,15 @@ After my debit card got stolen, I started reading about the topic of money. *Ran
 *Letters* is fantastic. Seneca is an interesting character because he's in declining health at the end of his life and at the same time, Nero has recently kicked him out of his influential position in government. As you read, this background explains his interest in Stoic philosophy. 
 The other two books are because of an interest I have in meditation. I skimmed them.
 
+## Science
+
+* Black Swan
+* Godel, Escher, Bach
+* A Short History of Nearly Everything
+* The Origin of Consciousness in the Breakdown of the Bicameral Mind
+
+Read Nissam Taleb. Also, if you like science, especially its (fascinating) history, read *A Short History*. *Godel, Escher, Bach* is a difficult read, probably the most difficult book I read this year. I think it's a good read for computer scientist because it plays with mathematical rigor in a fun, and childish way.
+
 ## Self Improvement
 
 * 10% Happier
@@ -59,15 +68,6 @@ The other two books are because of an interest I have in meditation. I skimmed t
 I enjoyed *10%* because Dan Harris is a former ABC news correspondent on the subject of religion, and accordingly the book is full of interesting stories about his journey on network television. It helped me better understand popular understanding of religion. 
 
 I drank bulletproof coffee through the better part of 3 months during the winter- it's good. However, Asprey views food as a fuel for some kind of high power, deal-making, super-CEO-man and not as a holistic human experience. I think there's better books on healthy eating than *Bulletproof*. I'd suggest *Food Rules* by Michael Pollan. It's for people with normal relationships to food.
-
-## Science
-
-* Black Swan
-* Godel, Escher, Bach
-* A Short History of Nearly Everything
-* The Origin of Consciousness in the Breakdown of the Bicameral Mind
-
-Read Nissam Taleb. Also, if you like science, especially its (fascinating) history, read *A Short History*. *Godel, Escher, Bach* is a difficult read, probably the most difficult book I read this year. I think it's a good read for computer scientist because it plays with mathematical rigor in a fun, and childish way.
 
 ## Others 
 
@@ -80,6 +80,7 @@ Read Nissam Taleb. Also, if you like science, especially its (fascinating) histo
 *Lies* is a book every American who went through the traditional public school system should read. It's not so much subversive as it is exposing of the subversive nature of system that's currently in place. It reminded me of the David Foster Wallace commencement speech where he tells the story of fish who are unaware that they are swimming in water. Its so fundamental that it's invisible. This is a little how I felt after reading *Lies*.
 
 ______
+
 # Summary
 
 That's it for this year. I'm looking forward to reading Richard Dawkins, Jordan Peterson, Sam Harris, and many others. Hopefully I'll be able to find some good fiction in there as well.
