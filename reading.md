@@ -4,6 +4,15 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+## 2016 
+Review
+
+**A Short History of Nearly Everything** - Bill Bryson
+
+**A Random Walk Down Wall Street** - Burton Malkiel
+
+**The Richest Man in Babylon** - George Clason
+
 **Rich Dad's Guide to Investing** - Robert Kiyosaki
 
 **Rich Dad, Poor Dad** - Robert Kiyosaki
