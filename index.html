@@ -9,7 +9,7 @@ layout: default
       <li>
         <div>
           <a class="post-list-header" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <div class="post-list-date">{{ post.date | date: "%-d %B %Y" }}
+          <div class="post-list-date">{{ post.date | date: "%-d %B %Y" }} • 
           {% for category in post.categories %}<span class="post-category"> {{ category }}</span>{% endfor %}
           </div>
         </div>
@@ -27,9 +27,9 @@ layout: default
   {% if paginator.total_pages > 1 %}
     <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">prev</a>
     {% else %}
-      <span>&laquo; Prev</span>
+      <span>prev</span>
     {% endif %}
 
     {% for page in (1..paginator.total_pages) %}
@@ -43,9 +43,9 @@ layout: default
     {% endfor %}
 
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">next</a>
     {% else %}
-      <span>Next &raquo;</span>
+      <span>next</span>
     {% endif %}
   </div>
   {% endif %}

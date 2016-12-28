@@ -15,5 +15,3 @@ Here's a couple of links where you can do things:
 *  Find this very site on my [git](https://github.com/cramja).
 
 I also keep a [reading list](/reading/).
-
-<a href="/" style="text-align: center; display: block; margin-top:70px;">Index</a>

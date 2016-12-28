@@ -77,15 +77,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $color-third-4;
+  color: $color-second-1;
   text-decoration: none;
 
   &:visited {
-    color: $color-third-3;
+    color: $color-second-2;
   }
 
   &:hover {
-    color: $color-third-3;
+    color: $color-second-3;
     text-decoration: none;
   }
 }
