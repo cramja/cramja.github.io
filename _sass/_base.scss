@@ -132,6 +132,26 @@ pre {
   }
 }
 
+canvas {
+  border: $grey-color-light;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
 /**
  * Wrapper
  */

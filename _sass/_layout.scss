@@ -187,3 +187,18 @@
 .link-text {
   font-family: $sans-font-family;
 }
+
+#instructions {
+  color: $grey-color-light;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.tr {
+  clear: both;
+}
+
+.te {
+  float:left;
+  min-width: 50px;
+}
