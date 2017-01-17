@@ -4,6 +4,10 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+## 2017
+
+The War of Art - Steven Pressfield
+
 ## [2016]({{ site.baseurl }}{% post_url 2016-12-27-book-review %})
 
 A Short History of Nearly Everything - Bill Bryson
