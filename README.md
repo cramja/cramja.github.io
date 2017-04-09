@@ -1,9 +1,5 @@
-# cramja.github.io AKA [spehl.net](https://www.spehl.net)
-### A Jekyll-based Blog
+# cramja.github.io 
 
-## TODO
-* Add tags to index pages under the article titles
-* Create pagination links under each article
-* Refactor the footer, it looks terrible
-* Links should be more stand-out
-* Headers on the articles should be more stand-out
+[spehl.net](https://www.spehl.net) or [cramja.com](https://www.cramja.com).
+
+## A Jekyll-based Blog

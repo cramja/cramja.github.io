@@ -6,6 +6,16 @@ title: Reading Habits
 
 ## 2017
 
+Kafka, Short Stories - Kafka
+
+Altered Genes, Twisted Truth - Steven Druker
+
+Siddhartha - Hermann Hesse
+
+Thinking Fast and Slow - Daniel Kahnemann
+
+Bird by Bird - Anne Lamott
+
 The War of Art - Steven Pressfield
 
 ## [2016]({{ site.baseurl }}{% post_url 2016-12-27-book-review %})
