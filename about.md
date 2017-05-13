@@ -5,7 +5,7 @@ title: About the Globja
 ---
 Hello!
 
-My name is Marc Spehlmann. I am a graduate student in Computer Science at the University of Wisconsin-Madison. I use this site to write about whatever I want. It's a blog.
+My name is Marc Spehlmann. I use this site to write about whatever I want. It's a blog.
 
 Here's a couple of links where you can do things:
 

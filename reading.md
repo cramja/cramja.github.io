@@ -6,6 +6,8 @@ title: Reading Habits
 
 ## 2017
 
+Gulag Archipelago - Aleksandr Solzhenitsyn
+
 Kafka, Short Stories - Kafka
 
 Altered Genes, Twisted Truth - Steven Druker
