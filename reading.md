@@ -6,6 +6,12 @@ title: Reading Habits
 
 ## 2017
 
+American Icon - Bryce Hoffman
+
+Master and Margarita - Mikhail Bulgakov
+
+Elon Musk - Ashlee Vance
+
 Gulag Archipelago - Aleksandr Solzhenitsyn
 
 Kafka, Short Stories - Kafka
