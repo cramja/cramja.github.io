@@ -8,4 +8,4 @@ github_username:  cramja
 # Build settings
 markdown: kramdown
 paginate: 5
-gems: [jekyll-paginate]
+plugins_dir: [jekyll-paginate]
