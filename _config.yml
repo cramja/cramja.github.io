@@ -7,5 +7,10 @@ github_username:  cramja
 
 # Build settings
 markdown: kramdown
+plugins: 
+  - jekyll-paginate
 paginate: 5
-plugins_dir: [jekyll-paginate]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

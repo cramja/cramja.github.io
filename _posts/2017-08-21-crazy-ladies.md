@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Crazy Old Ladies"
+title: "Crazy Old Ladies"
 date:   2017-08-21 12:13:14 -0600
 categories: reading
 short: On a first pass of Crime and Punishment, I thought Dostoevsky was trying to make a claim that older women had a tendency to go insane.

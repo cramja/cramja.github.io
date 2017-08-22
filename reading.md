@@ -6,6 +6,10 @@ title: Reading Habits
 
 ## 2017
 
+Sapiens - Harari
+
+Crime and Punishment - Fydor Dostoevsky
+
 American Icon - Bryce Hoffman
 
 Master and Margarita - Mikhail Bulgakov
