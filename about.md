@@ -14,3 +14,4 @@ Here's a couple of links where you can do things:
 *  Shoot me an [email](mailto:marc.spehlmann@gmail.com).
 *  Find this very site on my [git](https://github.com/cramja).
 *  See my professional profile on [LinkedIn](https://www.linkedin.com/pub/marc-spehlmann/8b/25/a6/).
+*  Play with [gravity]({{ site.baseurl }}{% post_url 2016-12-31-gravity %})

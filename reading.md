@@ -4,9 +4,21 @@ permalink: /reading/
 title: Reading Habits
 ---
 
-## 2017
+## [2017]({{ site.baseurl }}{% post_url 2017-12-28-year-recap %})
 
-Sapiens - Harari
+Cafe in Berlin - Andre Klein
+
+Thinking in Systems - Donella Meadows
+
+Titan - Ron Chernow
+
+The Things They Carried - Tim O'Brien
+
+The Bell Curve - Richard Hernstein
+
+Effective Java - Joshua Block
+
+Sapiens - Yuval Harari
 
 Crime and Punishment - Fydor Dostoevsky
 
