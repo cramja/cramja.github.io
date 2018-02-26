@@ -4,6 +4,14 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+## 2018
+
+Great Short Works of Leo Tolstoy - Leo Tolstoy
+
+12 Rules for Life - Jordan Peterson
+
+Antifragile - Nassim Taleb
+
 ## [2017]({{ site.baseurl }}{% post_url 2017-12-28-year-recap %})
 
 Cafe in Berlin - Andre Klein
