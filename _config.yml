@@ -9,7 +9,13 @@ github_username:  cramja
 markdown: kramdown
 plugins: 
   - jekyll-paginate
+  - jekyll/scholar
+
 paginate: 5
+
+scholar:
+  style: acm-sig-proceedings
+  source: _citations
 
 exclude:
   - Gemfile
