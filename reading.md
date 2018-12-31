@@ -12,6 +12,30 @@ Great Short Works of Leo Tolstoy - Leo Tolstoy
 
 Antifragile - Nassim Taleb
 
+Ben Franklin - Walter Isaacson
+
+Innovators - Walter Isaacson
+
+Roadside Picnic - Arkady and Boris Strugatsky
+
+Monday Starts on Saturday - Arkady and Boris Strugatsky
+
+Skin in the Game - Nassim Taleb
+
+Joel on Software - Joel Spolsky
+
+Smart and Gets Things Done - Joel Spolsky
+
+Distributed Systems - Maarten van Steen
+
+Blood Meridian - Cormac McCarthy
+
+Extreme Ownership - Jocko Willink
+
+The Great Gatsby - Scott F. Fitzgerald
+
+
+
 ## [2017]({{ site.baseurl }}{% post_url 2017-12-28-year-recap %})
 
 Cafe in Berlin - Andre Klein
