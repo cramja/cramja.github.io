@@ -1,9 +1,38 @@
 ---
 layout: page
-title:  "Variance Reduction in SGD"
-date:   2018-07-07 12:00:00 -0700
+title: "Visualization: Stochastic Gradient Descent"
+short: A small javascript program to help intuitively understand a machine learning algorithm.
+date: 2019-04-21 12:00:00 -0700
 categories: research
 ---
+
+Math is not my forte and I do not have an intuition for mathematical concepts as I might for,
+say, writing style. When I was learning the math for some basic machine learning algorithms
+in a [course at UW](https://laurentlessard.com/teaching/524-intro-to-optimization/),
+I wanted to more intuitively understand how they worked. This post gives an overview
+
+A large class of machine learning algorithms work like this: you have a vector or
+matrix of numbers. These "weights" are a component of a linear function which means that, given these
+weights, and an input (also a vector of numbers) I should be able to combine the input with
+the weights to give an output number which predictive about some quality of the input.
+For example, if I have a bitmap image mapped to a vector, combined in a special way with with a
+carefully constructed vector of weights, the function should output single positive number
+if the image is indeed a cat or negative if not.
+
+Of course, the weights are not known in advance and must be "learned". An optimization algorithm
+is used to incrementally modify a randomized weight vector into a weight vector which gives meaningful
+
+
+If you're new to machine learning and this language feels lofty and out of reach, fear not, I
+will attempt to explain in simple terms. For those who are interested, I will leave the text of our (it was a group project) after the visualization.
+
+A Support Vector
+
+
+
+_______
+
+_original text_
 
 # Understanding Variance Reduction Techniques with SGD
 
