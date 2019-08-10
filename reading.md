@@ -4,6 +4,34 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+## 2019
+
+Clean Code - Robert Martin
+
+The Philosophy of Programming - John Ousterhout
+
+Subliminal - Leonard Mlodinow
+
+Fear No Evil - Natan Sharansky
+
+The Shortest History of Germany - James Hawes
+
+Doing Good Better - William Macaskill
+
+Moneyball - Michael Lewis
+
+Rework - DHH
+
+Inspired - Marty Cagan
+
+The Omnivore's Dilemma - Michael Pollan
+
+Fooled By Randomness - Nassim Taleb
+
+A Random Walk Down Wall Street - Burton Malkeil
+
+Made Poorly in China - Paul Midler
+
 ## 2018
 
 Great Short Works of Leo Tolstoy - Leo Tolstoy
