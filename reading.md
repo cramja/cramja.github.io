@@ -6,6 +6,16 @@ title: Reading Habits
 
 ## 2019
 
+Invisible Cities - Italo Calvino
+
+Pastures of Heaven - John Steinbeck
+
+Energy - Richard Rhodes
+
+Designing Data Intensive Applications - Martin Kleppmann
+
+Skin in the Game - Nassim Taleb
+
 Clean Code - Robert Martin
 
 The Philosophy of Programming - John Ousterhout
