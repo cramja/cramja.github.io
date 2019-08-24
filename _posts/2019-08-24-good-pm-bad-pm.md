@@ -49,7 +49,7 @@ Good product managers err on the side of clarity vs. explaining the obvious. Bad
 
 I love this section. There's two important points.
 
-One is that good PM's have aspirations and visions for the product which they  communicate outside the organization. They understand that the implementation of that vision will not be obvious to an external audience at first- this is why the product isn't commodity.
+One is that good PMs have aspirations and visions for the product which they communicate outside the organization. They understand that the implementation of that vision will not be obvious to an external audience at first- this is why the product isn't commodity.
 
 Second, there's a component of offense versus defense. A good PM is on the offense: they anticipate what they want to have their audience absorb as the general take-away. A bad PM is playing defense: rattle off every feature like they are justifications, and answer every question out of fear or lack of confidence.
 
@@ -57,6 +57,6 @@ Second, there's a component of offense versus defense. A good PM is on the offen
 
 I've never had to hand in a status report, but I agree, discipline is important. Especially in tech which has an air of slovenliness: dress code is hoodies, showing up late in the morning is the norm, and being pampered with free lunch and snacks is baseline. Be serious where it matters. If you're an engineer, consistently refactor, simplify. Be aggressive responding and learning from alerts. Get up early to read and self-learn. These habits cannot be stocked in the company fridge.
 
-So, that concludes my margin notes. I'd like to add one component which feels in line with all that has been said so far. From Taleb, _the point is not to win arguments, the point is to win_. In tech, I've various practices and patterns appear. In engineering, patterns manifest as frameworks like Spring or agile practices like scrum. In product, we participate in practices like t-shirt sizing, and product requirement specification templated docs, etc. These are the outcome of applying a pattern and they're not inherently bad but at the same time their use or application does not equal success. One should go beyond the learning the patterns and practices and focus on why the practices exist in the first place.
+So, that concludes my margin notes. I'd like to add one component which feels in line with all that has been said so far. From Taleb, _the point is not to win arguments, the point is to win_. In tech, I've seen various practices and patterns appear. In engineering, patterns manifest as frameworks like Spring or agile practices like scrum. In product, we participate in practices like t-shirt sizing, and product requirement specification templated docs, etc. These are the outcome of applying a pattern and they're not inherently bad but at the same time their use or application does not equal success. One should go beyond the learning the patterns and practices and focus on why the practices exist in the first place. The point is to win.
 
 [source]: https://a16z.com/2012/06/15/good-product-managerbad-product-manager/
