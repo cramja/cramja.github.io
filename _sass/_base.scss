@@ -156,7 +156,7 @@ th, td {
  * Wrapper
  */
 .wrapper {
-  max-width:720px;
+  max-width: $content-width;
   padding: 3px;
   margin: 15px auto;
 }
