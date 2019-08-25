@@ -156,7 +156,7 @@ th, td {
  * Wrapper
  */
 .wrapper {
-  max-width:600px;
+  max-width:720px;
   padding: 3px;
   margin: 15px auto;
 }
@@ -169,7 +169,7 @@ th, td {
 
 @media screen and (min-width:600px) {
   .wrapper {
-    padding: 0px;
+    padding: 2px;
   }
 }
 
