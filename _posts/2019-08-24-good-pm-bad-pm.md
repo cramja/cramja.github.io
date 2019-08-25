@@ -7,9 +7,12 @@ draft: false
 short: Margin notes for the most resonant part of "Hard Thing About Hard Things".
 ---
 
-Reading _Hard Thing About Hard Things_ by Ben Horowitz and this short essay _Good PM / Bad PM_ resonated as it touches on topics relevant to far more positions besides only product manager. Since I like the content so much, I'll go ahead and reproduce it here with my margin notes.
+I am reading _Hard Thing About Hard Things_ by Ben Horowitz and this short essay _Good PM / Bad PM_ particularly resonated. It touches on topics relevant to many roles besides product manager. Since I like the content and have written a good deal of margin notes in the pages of the book, I'll go ahead and reproduce my thoughts here in a refined draft.
 
-Here's the essay, as copy pasted from [Andreessen Horowitz's website][source] with my stream of consciousness responses.
+As copy pasted from [Andreessen Horowitz's website][source], here are my responses to paragraphs of the essay.
+
+___
+
 
 > Good product managers know the market, the product, the product line and the competition extremely well and operate from a strong basis of knowledge and confidence. A good product manager is the CEO of the product. A good product manager takes full responsibility and measures themselves in terms of the success of the product. The are responsible for right product/right time and all that entails. A good product manager knows the context going in (the company, our revenue funding, competition, etc.), and they take responsibility for devising and executing a winning plan (no excuses).
 
