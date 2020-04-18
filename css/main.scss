@@ -5,15 +5,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-$base-font-family: "Alegreya", "serif";
-$base-font-size:   20px;
+$sans-font-family: 'Open Sans', sans-serif;
+$serif-font-family: "Alegreya", "serif";
+
+$base-font-family: $sans-font-family;
+$base-font-size:   18px;
 $base-font-weight: 500;
 $big-font-size:    $base-font-size * 1.5;
 $small-font-size:  $base-font-size * 0.875;
 $tiny-font-size:   $base-font-size * 0.675;
 $base-line-height: 1.7;
-
-$sans-font-family: 'Open Sans', sans-serif;
 
 $spacing-unit:     30px;
 $footer-height:    130px;
@@ -28,7 +29,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 $grey-color-darker:  darken($grey-color, 70%);
 
 
-$content-width:    780px;
+$content-width:    900px;
 
 $color-first-0: #2B823A;  // Main Primary color */
 $color-first-1: #82C38D;
