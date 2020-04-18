@@ -110,11 +110,10 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
+pre,code {
   font-size: 15px;
   border: 1px solid $grey-color-light;
-  border-radius: 3px;
+  border-radius: 6px;
   background-color: #fdfdfd;
 }
 
