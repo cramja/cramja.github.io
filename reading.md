@@ -4,6 +4,28 @@ permalink: /reading/
 title: Reading Habits
 ---
 
+## 2020
+
+LoserThink - Scott Adams
+
+We are Our Brains - Swaab
+
+The Hidden Life of Trees - Peter Wohlleben
+
+Killing us Softly - Paul Offit
+
+Fiasco - Frank Partnoy
+
+The Peregrine - J.A. Baker
+
+Against the Grain - James Scott
+
+The 7 Habits of Highly Effective People - Stephen Covey
+
+Conscientious Objections - Neil Postman
+
+Reminiscences - Douglas MacArthur
+
 ## 2019
 
 Invisible Cities - Italo Calvino
