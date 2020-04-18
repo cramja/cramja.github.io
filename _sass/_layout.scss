@@ -2,6 +2,10 @@ hr {
   margin: 60px;
 }
 
+.home {
+  padding: 10px;
+}
+
 .page-wrap {
   min-height: 100%;
   margin-bottom: -$footer-height;
@@ -16,8 +20,6 @@ hr {
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
 }
 
@@ -32,7 +34,6 @@ hr {
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
   padding-bottom:100px;
 
   p {
@@ -45,13 +46,30 @@ hr {
   font-size: $big-font-size;
 }
 
+.post {
+  padding: 64px;
+  background: #f5f5f5b8;
+  box-shadow: 12px 18px 24px rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width:600px) {
+  .post {
+    padding: 16px;
+    background: $background-color;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
+  }
+  .page-content {
+    padding-bottom:20px;
+  }
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
 
   > li {
     margin-top:30px;
-    margin-bottom: $spacing-unit;
+    margin-bottom: 60px;
     clear:both;
   }
 }
@@ -154,7 +172,6 @@ hr {
 }
 
 .site-footer {
-  border-top: 1px solid $grey-color-light;
   width: 100%;
 }
 
@@ -183,7 +200,7 @@ hr {
   clear:both;
   margin-top: 20px;
   text-align: center;
-  color:$grey-color-light;
+  color: $grey-color-dark;
 }
 
 .reading {
