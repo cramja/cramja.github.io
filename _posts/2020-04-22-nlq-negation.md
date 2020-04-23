@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Striped Shirt"
+date:   2020-04-22 01:00:00 -0800
+categories: research
+draft: false
+short: A friend is not the same thing as not an enemy.
+---
+
+I came across [this fun repo](https://github.com/elsamuko/Shirt-without-Stripes) on hackernews a few days back. If you didn't click on it for some reason (really, why not? do it now please), then just know that searching "shirt without stripes" returns mostly shirts with stripes in your favorite big-tech-company image/product search engines.
+
+Obviously the point of the repo is that these kinds of search engines don't account for negation. If you search for "shirt without stripes" you get almost the exact same results as "shirt striped". It's kind of funny and kind of makes sense if you know a little about how these systems are designed: they're indexed in a way that makes finding certain attributes fast. But the negation is not usually part of the search-system design. A very simple example is to think of a book index. Try finding "Rhinoceros Elephant": flip through a couple pages until you find the R's and then scan until you find the area where Rhino should be. Now think about what the negation of that search is: scan through every entry in the entire index, just skip Rhino Elephant. It's a lot more results, a lot more scanning translates to very expensive to support in a search engine.
+
+Here's the thing. For consumer products and image search, who cares? I mean, who the hell goes in to amazon and searches for negations? We usually think in terms of what we are looking for. _White t-shirt_ instead of _not black t-shirt_. _whole bean coffee_ versus _not ground coffee_, (to go through a few of my recent amazon orders). It would be crazy to build out the system to handle such low-frequency query. I'm sure the engineering challenges would be immense.
+
+And, just for fun, Here's another thing about why negations are hard in our common language: negation can add another layer of meaning in addition to NOT-ing something. An example. Compare the phrases _the love of my life_ versus _the one who I despise the least_. Logically equivalent. If the first phrase is stated by a human in a non-sarcastic intonation, _the love of my life_ will 99% of the time mean just that. However, the negation almost certainly requires context because no one who says that phrase, _the one who I despise the least_, would ever use it in a context where it could be swapped out with _the love of my life_ and still have the same meaning. _Oh, darling, I chose you because I despise you the least_. Nope, not ever. I can only imagine that it'd either be used in a humorous, or a dark context. The humor is implied because it defies expectation by mixing a strongly negative word, _despise_, with a negation and we humans will feel the negativity of the phrase but then logically resolve the statement as a compliment. The defiance of our expectation of insult makes it funny. The sinister interpretation is that the speaker is a person who loves no one. He has no friends, and instead thinks of people he relates to only in terms of those he despises less than others. 
+
+Duh, ok, you're human so that was natural for you. So sorry, enough explaining the obvious to human beings. But now try to get computers to understand that. Good luck with that! And, given the striped shirt search example, apparently that's what all the engineers at FANG companies were thinking when they wrote their product/image search engines.
