@@ -10,7 +10,7 @@ My name is Marc. I use this site to write about whatever I want. It's a blog.
 Here's a couple of links.
 
 *  See what I'm [reading](/reading/).
-*  Watch something [satisfying](http://i.imgur.com/AqLvXJh.gifv).
+*  Watch something [satisfying](http://i.imgur.com/AqLvXJh.gifv). Or something [equally as satisfying](https://gfycat.com/thatalivedogwoodclubgall).
 *  Shoot me an [email](mailto:marc.spehlmann@gmail.com).
 *  Find this very site on my [github page](https://github.com/cramja).
 *  See my professional profile on [LinkedIn](https://www.linkedin.com/pub/marc-spehlmann/8b/25/a6/).
