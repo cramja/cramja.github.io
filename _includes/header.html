@@ -1,7 +1,25 @@
 <header class="site-header link-text">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container d-flex justify-content-between">
 
-  <div class="wrapper">
-  <a class="site-title" href="/">{{ site.title | escape }}</a> 
-  </div>
+      <a class="navbar-brand" href="/">{{ site.title | escape }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link {% if page.name == 'index.html' %}active{% endif %}" href="/">Blog</a>
+          <a class="nav-item nav-link {% if page.name == 'reading.md' %}active{% endif %}" href="/reading">Reading</a>
+          <a class="nav-item nav-link {% if page.name == 'about.md' %}active{% endif %}" href="/about">About</a>
+        </div>
+      </div>
+    </div>
 
+  </nav>
 </header>
+
+<!-- <div class="container">
+  <div class="row">
+    {{ page.name }}
+  </div>
+</div> -->

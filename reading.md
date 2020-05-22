@@ -1,6 +1,6 @@
 ---
 layout: reading
-permalink: /reading/
+permalink: /reading
 title: Reading Habits
 ---
 

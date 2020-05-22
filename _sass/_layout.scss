@@ -6,6 +6,10 @@ hr {
   padding: 10px;
 }
 
+.content {
+  margin-top: 30px;
+}
+
 .page-wrap {
   min-height: 100%;
   margin-bottom: -$footer-height;
@@ -158,7 +162,7 @@ hr {
   margin-right: 50px;
 }
 
-.pagination {
+.page-list {
   text-align:center;
   font-family: $sans-font-family;
   a,em,span {
