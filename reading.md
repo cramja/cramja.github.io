@@ -6,6 +6,14 @@ title: Reading Habits
 
 ## 2020
 
+Born on a Blue Day - Daniel Tammet
+
+In Search of Stupidity - Merrill Chapman
+
+Coders at Work - Peter Seibel
+
+Skin in the Game - Nassim Taleb
+
 LoserThink - Scott Adams
 
 We are Our Brains - Swaab
