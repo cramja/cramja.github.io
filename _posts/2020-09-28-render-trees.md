@@ -48,11 +48,13 @@ function Node({id, text, children, onChange}) {
 }
 ```
 
-Any updates to the state object caused the entire tree to re-render. This has to do with the fact that the `Head` component holds the state which is registered with React. If the state changes, then React cascades the re-render to each child. In theory, this is unnecessary since each keystroke will only change a single node. In practice, I discovered that it was a huge performance problem with larger trees: rendering hundreds of components on each keystroke slowed the app down to an unusable state.
+Any updates to the state object caused the entire tree to re-render. This has to do with the fact that the `Head` component holds the state which is registered with React. If the state changes, then React cascades the re-render to each child. In theory, this should be unnecessary since each keystroke will only change a single node so only a single node should be re-rendered. But, in the naive version, React re-renders every node which is a huge performance problem with larger trees: rendering hundreds of components on each keystroke made the app unusable.
 
 ## Memo'd Component
 
-The fix I settled on was to assign each node a generation and tell React to re-render a component if the generation changed. A generation is simply an integer which increments any time the node changes or any of its child nodes changes. Assigned the current time or even a random string would have achieved the same thing: I just needed to tell react the node was different. With the changes in place, separate branches in the tree now updated independently, cutting down the number of re-renders to the depth of the update.
+The fix I settled on was to assign each node a generation and tell React to re-render a component if the generation changed. A generation is simply an integer which increments any time the node changes or any of its child nodes changes. Assigning the current time or even a random string would have achieved the same thing: I just needed to tell react the node's properties were different. 
+
+With the changes in place, separate branches in the tree updated independently, cutting down the number of re-renders to the depth of the update.
 
 In code, all I had to do was update the `Node` component to accept the generation, and create a memoized version of the component which contained the re-render decision-making logic.
 
