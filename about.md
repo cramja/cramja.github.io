@@ -15,6 +15,7 @@ Here's a couple of links.
 *  Find this very site on my [github page](https://github.com/cramja).
 *  See my professional profile on [LinkedIn](https://www.linkedin.com/pub/marc-spehlmann/8b/25/a6/).
 *  Play with [gravity]({{ site.baseurl }}{% post_url 2016-12-31-gravity %})
+*  Play with [squares]({{ site.baseurl }}{% post_url 2018-12-31-squares %})
 
 By the way, people have asked in the past: why Cramja, why Golbja?
 
