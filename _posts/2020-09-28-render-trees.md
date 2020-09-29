@@ -4,7 +4,7 @@ title: "Render Deep Trees in React"
 date:   2020-09-28 01:00:00 -0800
 categories: ideas
 draft: false
-short: There's a trick to rendering deep trees in React: memo.
+short: "There's a trick to rendering deep trees in React: memo."
 ---
 
 
@@ -17,7 +17,7 @@ If this is too much, TL/DR Use `React.memo` when you need fine grained control o
 
 A little background on the problem. The first implementation passed the tree data into a `Head` component which then rendered each node recursively as a `Node` component. Node that this version is simplified so it might seem overkill that I used `React.useReducer`, but it greatly simplified things in the non-toy version of this tree.
 
-```js
+```jsx
 function Head({tree}) {
   const [state, dispatch] = React.useReducer(tree, reduce);
 
@@ -29,7 +29,7 @@ function Head({tree}) {
 }
 ```
 
-```js
+```jsx
 function Node({id, text, children, onChange}) {
   return (
     <>
