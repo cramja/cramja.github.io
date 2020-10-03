@@ -15,7 +15,7 @@ If this is too much, TL/DR Use `React.memo` when you need fine grained control o
 ## Naive Component
 
 
-A little background on the problem. The first implementation passed the tree data into a `Head` component which then rendered each node recursively as a `Node` component. Node that this version is simplified so it might seem overkill that I used `React.useReducer`, but it greatly simplified things in the non-toy version of this tree.
+A little background on the problem. The first implementation passed the tree data into a `Head` component which then rendered each node recursively as a `Node` component. Note that this version is simplified so it might seem overkill that I used `React.useReducer`, but it greatly simplified things in the non-toy version of this tree.
 
 ```jsx
 function Head({tree}) {
