@@ -2,7 +2,7 @@
 layout: post
 title:  "Classical Guitar Realization"
 date:   2015-05-10 12:13:14 -0600
-categories: guitar
+categories: writing
 short: I had a deep and resounding realization today.
 ---
 

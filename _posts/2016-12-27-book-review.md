@@ -2,7 +2,7 @@
 layout: post
 title:  "2016 Book Review"
 date:   2016-12-27 06:00:00 -0600
-categories: books
+categories: writing
 draft: false
 short: I read about two books each month this year. Here's a recap of the books I enjoyed or found the most useful.
 ---

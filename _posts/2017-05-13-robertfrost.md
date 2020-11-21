@@ -2,7 +2,7 @@
 layout: post
 title: "Two Roads Diverged"
 date:   2017-05-13 01:02:03 -0600
-categories: life
+categories: writing
 short: Two roads diverged in a yellow wood. I took I-80.
 ---
 

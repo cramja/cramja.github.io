@@ -9,8 +9,8 @@ github_username:  cramja
 markdown: kramdown
 plugins: 
   - jekyll-paginate
-paginate: 5
-
+paginate: 10
+permalink: /:categories/:title:output_ext
 exclude:
   - Gemfile
   - Gemfile.lock

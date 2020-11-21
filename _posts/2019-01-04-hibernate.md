@@ -2,7 +2,7 @@
 layout: post
 title:  "Hibernate"
 date:   2019-01-04 12:00:00 -0800
-categories: work
+categories: tech
 draft: false
 short: My thoughts on Hibernate (the popular Java "object relational mapper" implementation).
 ---

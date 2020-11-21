@@ -5,11 +5,11 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       <li>
         <div>
           <a class="post-list-header" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <div class="post-list-date">{{ post.date | date: "%-d %B %Y" }} • 
+          <div class="post-list-date">{{ post.date | date: "%Y-%m-%d" }} • 
           {% for category in post.categories %}<span class="post-category"> {{ category }}</span>{% endfor %}
           </div>
         </div>
@@ -23,18 +23,4 @@ layout: default
     {% endfor %}
   </ul>
 
-  <!-- Pagination links -->
-  {% if paginator.total_pages > 1 %}
-    <div class="page-list">
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <em>{{ page }}</em>
-      {% elsif page == 1 %}
-        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-  </div>
-  {% endif %}
 </div>

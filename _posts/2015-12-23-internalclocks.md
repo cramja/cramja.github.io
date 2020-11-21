@@ -2,7 +2,7 @@
 layout: post
 title:  "Internal Clocks"
 date:   2015-12-23 12:17:18 -0600
-categories: thoughts
+categories: writing
 short: I'm at home over christmas and I started to wake up at the same time I would in high school. I wonder if we're cued by our enviroment for certain things.
 ---
 

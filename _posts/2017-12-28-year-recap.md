@@ -2,7 +2,7 @@
 layout: post
 title:  "2017 Book Review"
 date:   2017-12-28 12:00:00 -0600
-categories: life
+categories: writing
 short: A recap of what I read in 2017.
 ---
 

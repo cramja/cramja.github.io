@@ -2,7 +2,7 @@
 layout: post
 title:  "Evolving a Pair of Scissors"
 date:   2015-02-23 15:37:16 -0600
-categories: research
+categories: tech
 short: I solved an NP-HARD problem with digital life! Well, depending on how satisfied you are with my definition of 'solved' and depending on your definition of 'life'.
 ---
 I solved an NP-HARD problem with digital life! Well, depending on how satisfied you are with my definition of 'solved' and depending on your definition of 'life'.

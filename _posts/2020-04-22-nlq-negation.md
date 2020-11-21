@@ -2,7 +2,7 @@
 layout: post
 title: "Striped Shirt"
 date:   2020-04-22 01:00:00 -0800
-categories: research
+categories: writing
 draft: false
 short: A friend is not the same thing as not an enemy.
 ---

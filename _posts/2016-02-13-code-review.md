@@ -2,7 +2,7 @@
 layout: post
 title:  "When Coding Feels Like Treading Water"
 date:   2016-02-13 06:37:16 -0600
-categories: research
+categories: tech
 short: This morning when I sat down to write, I started thinking about code. Darn coffee, you got me into this.
 ---
 

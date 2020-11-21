@@ -2,7 +2,7 @@
 layout: post
 title:  "Commandments for the Dying"
 date:   2019-01-25 01:00:00 -0800
-categories: life
+categories: writing
 draft: false
 short: Five commandments for those who suffer from mortality.
 ---

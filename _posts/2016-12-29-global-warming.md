@@ -2,7 +2,7 @@
 layout: post
 title:  "Measuring Climate Change"
 date:   2016-12-29 06:00:00 -0600
-categories: research
+categories: writing
 draft: false
 short: Using publicly available data, we can find a warming trend in 50 years of daily mean temperature recordings. I've including some pictures and the source code we used for the analysis. It's pretty simple. The results are irrefutable.
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Margin Notes: Good PM / Bad PM"
 date:   2019-08-24 01:00:00 -0800
-categories: work
+categories: writing
 draft: false
 short: Margin notes for the most resonant part of "Hard Thing About Hard Things".
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Graduate School as an Investment"
 date:   2015-12-16 12:17:18 -0600
-categories: madison
+categories: writing
 short: I pretend to be an economist as I reflect on my first term in phd-school. I had some suprises which might be explained by casting it in this light.
 ---
 

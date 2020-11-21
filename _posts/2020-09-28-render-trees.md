@@ -2,7 +2,7 @@
 layout: post
 title: "Render Deep Trees in React"
 date:   2020-09-28 01:00:00 -0800
-categories: ideas
+categories: tech
 draft: false
 short: "There's a trick to rendering deep trees in React: memo."
 ---

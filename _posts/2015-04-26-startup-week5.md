@@ -2,7 +2,7 @@
 layout: post
 title:  "Startup Term Week 5"
 date:   2015-04-26 12:13:14 -0600
-categories: knox
+categories: tech
 short: During the last term of my undergraduate education, I didn't take any classes. Instead, I sold locally grown produce to the Galesburg community. Here's part of that story.
 ---
 I don't intend this to be a post about tech-y things, so bear with the next sentences.

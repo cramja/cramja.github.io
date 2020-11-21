@@ -2,7 +2,7 @@
 layout: post
 title:  "Conspiracies via Alex Jones"
 date:   2017-02-04 12:00:00 -0600
-categories: life
+categories: writing
 short: Comments on the Alex Jones interview with Joe Rogan. It ran my mind through a blender and now I'm pouring it back out in this post.
 ---
 
