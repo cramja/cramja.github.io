@@ -7,10 +7,7 @@ github_username:  cramja
 
 # Build settings
 markdown: kramdown
-plugins: 
-  - jekyll-paginate
-paginate: 10
-permalink: /posts/:categories/:title:output_ext
+permalink: /posts/:title:output_ext
 exclude:
   - Gemfile
   - Gemfile.lock
