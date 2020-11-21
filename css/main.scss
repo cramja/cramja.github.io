@@ -50,6 +50,13 @@ $color-third-3: #527614;
 $color-third-4: #324F00;
 
 
+$color-tag-0: #246068;
+$color-tag-0-light: lighten(#246068, 60%);
+
+$color-tag-1: #779D34;
+$color-tag-1-light: lighten(#779D34, 50%);
+
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {

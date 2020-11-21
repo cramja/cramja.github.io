@@ -5,22 +5,31 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
-    {% for post in site.posts %}
+{% for post in site.posts %}
       <li>
-        <div>
-          <a class="post-list-header" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <div class="post-list-date">{{ post.date | date: "%Y-%m-%d" }} • 
-          {% for category in post.categories %}<span class="post-category"> {{ category }}</span>{% endfor %}
+          <div class="post-list-row">
+              <div class="post-list-left">
+                  <div class="post-list-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+                  <div class="post-list-categories">
+                      {% for category in post.categories %}<span class="post-category post-category-{{category}}"> {{ category }}</span>{% endfor %}
+                  </div>
+             </div>
+
+              <div class="post-list-right">
+                  <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <div class="post-list-preview">
+{% if post.short %}
+             <p>{{ post.short }}</p>
+{% else %}
+             <p>{{ post.content | strip_html | truncatewords:60}}</p>
+{% endif %}
           </div>
-        </div>
-        {% if post.short %}
-          <p class="post-list-short">{{ post.short }}</p>
-        {% else %}
-          <p class="post-list-short">{{ post.content | strip_html | truncatewords:60}}</p>
-        {% endif %}
+
+              </div>
+          </div>
       </li>
-      <div class="divider"></div>
-    {% endfor %}
+{% endfor %}
+
   </ul>
 
 </div>

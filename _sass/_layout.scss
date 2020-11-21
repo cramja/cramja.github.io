@@ -67,6 +67,12 @@ hr {
   }
 }
 
+@media screen and (max-width:720px) {
+  .post-list-left {
+    display: none;
+  }
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
@@ -78,12 +84,27 @@ hr {
   }
 }
 
-.post-list-header {
+
+.post-list-row {
+  display: flex;
+  align-items: stretch;
+}
+
+.post-list-left {
+  flex: 1 1 120px;
+}
+
+.post-list-right {
+  flex: 4 4 100%;
+}
+
+.post-list-link {
   font-size: $big-font-size;
   font-family: $sans-font-family;
 }
 
 .post-list-date {
+  padding-left: 4px;
   font-size: $tiny-font-size;
   color: $grey-color;
   font-family: $sans-font-family;
@@ -105,8 +126,27 @@ hr {
   font-size: 24px;
 }
 
+.post-list-categories {
+  margin-top: 6px;
+}
+
 .post-category {
-  color: $color-second-0;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 6px;
+}
+
+.post-category-tech {
+  color: $color-tag-0;
+  background-color: $color-tag-0-light;
+  border-color: $color-tag-0-light;
+}
+
+.post-category-writing {
+  color: $color-tag-1;
+  background-color: $color-tag-1-light;
+  border-color: $color-tag-1-light;
 }
 
 /**
