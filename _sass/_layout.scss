@@ -117,7 +117,7 @@ hr {
 }
 
 
-.post-list-row {
+.post-list-container {
   display: flex;
   align-items: stretch;
 }
@@ -161,6 +161,15 @@ hr {
 .post-list-categories {
   margin-top: 6px;
 }
+
+.category-filter {
+  cursor: pointer;
+
+  &.selected {
+    color: black !important;
+  }
+}
+
 
 .post-category {
   border-width: 4px;

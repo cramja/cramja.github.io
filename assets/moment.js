@@ -312,7 +312,7 @@ Sink.prototype.update = function() {
       this.mass = Math.atan(gMouse.tPressed/10) * 2000;
       this.radius = this.mass * gEnv.kSizeConst * 0.5;
 
-      console.log('(' + this.radius + ", " + this.mass + ", " + gMouse.tPressed + ")");
+      // console.log('(' + this.radius + ", " + this.mass + ", " + gMouse.tPressed + ")");
     } else {
       gMouse.xInit = -1;
       gMouse.yInit = -1;

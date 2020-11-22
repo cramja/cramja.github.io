@@ -2,31 +2,66 @@
 layout: content-sidebar
 ---
 
-  <div class="post-list">
-    <ul>
-{% for post in site.posts %}
-      <li>
-          <div class="post-list-row">
-              <div class="post-list-left">
-                  <div class="post-list-date">{{ post.date | date: "%Y-%m-%d" }}</div>
-                  <div class="post-list-categories">
-                      {% for category in post.categories %}<span class="post-category post-category-{{category}}"> {{ category }}</span>{% endfor %}
-                  </div>
-             </div>
+<div class="post-list">
+  <h1>Pinned</h1>
+  <ul>
+{% assign pinnedPosts = site.posts | where:"pinned", true %}
 
-              <div class="post-list-right">
-                  <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <div class="post-list-preview">
+{% for post in pinnedPosts  %}
+    <li>
+        <div>
+            <div class="post-list-right">
+                <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <div class="post-list-preview">
 {% if post.short %}
-             <p>{{ post.short }}</p>
+           <p>{{ post.short }}</p>
 {% else %}
-             <p>{{ post.content | strip_html | truncatewords:60}}</p>
+           <p>{{ post.content | strip_html | truncatewords:60}}</p>
 {% endif %}
-          </div>
+        </div>
 
-              </div>
-          </div>
-      </li>
+            </div>
+        </div>
+    </li>
+{% endfor %}
+  </ul>
+
+  <h1>Everything</h1>
+  <div id="category-filter-container">
+    {% assign categoryItems = site.posts | group_by_exp: "item", "item.categories | first" %}
+    {% for categoryItem in categoryItems %}
+    {% assign category = categoryItem.name %}
+      <span class="category-filter post-category post-category-{{category}}"
+              data-class-filter="post-list-row-{{category}}">{{category}}</span>
+    {% endfor %}
+  </div>
+  <ul>
+{% for post in site.posts %}
+{% assign category = post.categories[0] %}
+    <li class="post-list-row post-list-row-{{category}}">
+        <div class="post-list-container">
+            <div class="post-list-left">
+                <div class="post-list-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+                <div class="post-list-categories">
+                    <span class="post-category post-category-{{category}}"> {{ category }}</span>
+                </div>
+           </div>
+
+            <div class="post-list-right">
+                <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <div class="post-list-preview">
+{% if post.short %}
+           <p>{{ post.short }}</p>
+{% else %}
+           <p>{{ post.content | strip_html | truncatewords:60}}</p>
+{% endif %}
+        </div>
+
+            </div>
+        </div>
+    </li>
 {% endfor %}
   </ul>
 </div>
+
+<script type="text/javascript" src="assets/category-button-filter.js"></script>
