@@ -6,7 +6,7 @@ categories: writing
 short: BEGIN; INSERT INTO moka (grounds) VALUES ('fine'); COMMIT;
 ---
 
-Before this year, I was a coffee snob. Admittedly, I've spent more money than I'd like to
+Before this year, I was a coffee snob. I've spent more money than I'd like to
 admit on boutique coffee beans. But while spending the holidays with my parents, I became
 acquainted with their latest gadget: a coffee making device from Italy called a moka pot,
 and this had the side effect of permanently shrinking my coffee budget. My relationship with
