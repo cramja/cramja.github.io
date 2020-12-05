@@ -7,20 +7,5 @@
 ```
 gem update jekyll
 bundle update
+bundle exec jekyll serve --incremental
 ```
-
-## TODO
-
-- CSS changes
-  - higher contrast link font
-  - remove unneeded padding
-  - remove category
-
-- Pagination / Categories
-  1. cleanup
-    - review each post, recategorize {software, writing, thoughts}
-    - potentially also tag, but not to do anything with ATM
-  2. extension
-    - ability to generate a table of contents 
-      - top level categories contain posts sorted by date
-    - collapsable side bar widget to display posts

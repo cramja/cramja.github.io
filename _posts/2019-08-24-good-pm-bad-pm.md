@@ -4,6 +4,7 @@ title:  "Margin Notes: Good PM / Bad PM"
 date:   2019-08-24 01:00:00 -0800
 categories: writing
 draft: false
+pinned: true
 short: Margin notes for the most resonant part of "Hard Thing About Hard Things".
 ---
 

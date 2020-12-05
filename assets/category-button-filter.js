@@ -1,13 +1,19 @@
-$(".category-filter").on("click", function(e) {
-  var buttonEl = $(e.target);
-  var selectionClass = "." + e.target.getAttribute('data-class-filter');
-  if (!buttonEl.hasClass("selected")) {
-    $(".selected").removeClass("selected");
-    buttonEl.addClass("selected");
-    $(".post-list-row").hide();
-    $(selectionClass).show();
-  } else {
-    buttonEl.removeClass("selected");
-    $(".post-list-row").show();
+var gblog = {
+  _postListClass: ".post-list-row",
+  filter: null,
+  toggleFilter(category) {
+    if (gblog.filter == null) {
+      $(`${gblog._postListClass}`).hide();
+      $(`${gblog._postListClass}-${category}`).show();
+      gblog.filter = category;
+    } else {
+      $(`${gblog._postListClass}`).show();
+      gblog.filter = null;
+    }
   }
-})
+};
+
+
+$(".post-category-label").on("click", function (e) {
+  gblog.toggleFilter(e.target.getAttribute("data-category"));
+});

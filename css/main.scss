@@ -1,61 +1,59 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
-$sans-font-family: 'Open Sans', sans-serif;
+$sans-font-family: "Open Sans", sans-serif;
 $serif-font-family: "Alegreya", "serif";
 
 $base-font-family: $sans-font-family;
-$base-font-size:   16px;
+$base-font-size: 16px;
 $base-font-weight: 500;
-$big-font-size:    $base-font-size * 1.5;
-$small-font-size:  $base-font-size * 0.875;
-$tiny-font-size:   $base-font-size * 0.675;
+$big-font-size: $base-font-size * 1.5;
+$small-font-size: $base-font-size * 0.875;
+$tiny-font-size: $base-font-size * 0.675;
 $base-line-height: 1.7;
 
-$spacing-unit:     30px;
-$footer-height:    130px;
+$spacing-unit: 30px;
+$footer-height: 130px;
 
-$text-color:       #111;
+$text-color: #333;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color: #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-$grey-color-darker:  darken($grey-color, 70%);
+$grey-color-dark: darken($grey-color, 25%);
+$grey-color-darker: darken($grey-color, 70%);
 
+$content-width: 900px;
 
-$content-width:    900px;
+$color-first-0: #2b823a; // Main Primary color */
+$color-first-1: #82c38d;
+$color-first-2: #51a35f;
+$color-first-3: #10621e;
+$color-first-4: #00410b;
 
-$color-first-0: #2B823A;  // Main Primary color */
-$color-first-1: #82C38D;
-$color-first-2: #51A35F;
-$color-first-3: #10621E;
-$color-first-4: #00410B;
+$color-second-0: #246068; // Main Secondary color (1) */
+$color-second-1: #69969c;
+$color-second-2: #427a82;
+$color-second-3: #0e464e;
+$color-second-4: #012e34;
 
-$color-second-0: #246068;  // Main Secondary color (1) */
-$color-second-1: #69969C;
-$color-second-2: #427A82;
-$color-second-3: #0E464E;
-$color-second-4: #012E34;
-
-$color-third-0: #779D34;  // Main Secondary color (2) */
-$color-third-1: #CFEC9D;
-$color-third-2: #A0C562;
+$color-third-0: #779d34; // Main Secondary color (2) */
+$color-third-1: #cfec9d;
+$color-third-2: #a0c562;
 $color-third-3: #527614;
-$color-third-4: #324F00;
+$color-third-4: #324f00;
 
+$color-tag-0: #6799a8;
+$color-tag-0-light: lighten(#6799a8, 40%);
 
-$color-tag-0: #246068;
-$color-tag-0-light: lighten(#246068, 60%);
-
-$color-tag-1: #779D34;
-$color-tag-1-light: lighten(#779D34, 50%);
-
+$color-tag-1: #a3ad90;
+$color-tag-1-light: lighten(#a3ad90, 30%);
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -65,14 +63,10 @@ $color-tag-1-light: lighten(#779D34, 50%);
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+@import "base", "layout", "syntax-highlighting";
