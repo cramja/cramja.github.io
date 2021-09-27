@@ -4,7 +4,7 @@ permalink: /about
 title: About
 ---
 
-Hello, my name is Marc.
+Hello, my name is Marc Spehlmann.
 
 I work as a software team lead on security for an automotive cloud platform. In
 the past, I've written identity management systems, components in relation database
