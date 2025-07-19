@@ -14,7 +14,7 @@ Specifically, I was testing
 * Running PXE on my host machine using dnsmasq as the dhcp/tftp server
 * Using the Rocky Linux attended installation flow
 
-0/ Setup - only needed if you're doing PXE boot
+## 0/ Setup - only needed if you're doing PXE boot
 
 I configured the default network to disable dhcp so that I could use my local dnsmasq instance to serve PXE.
 
@@ -93,7 +93,7 @@ drwxr-xr-x 3 root root 4096 May 27  2024 Minimal
 ```
 
 
-1/ Make a backing file for the simulated NVME
+## 1/ Make a backing file for the simulated NVME
 
 A 16G image...
 
@@ -101,7 +101,7 @@ A 16G image...
 dd if=/dev/zero of=/var/lib/libvirt/images/nvme001.img bs=1M count=16384
 ```
 
-2/ Create a domain
+## 2/ Create a domain
 
 I then created a base domain definition and tweaked it using `virsh edit`
 
