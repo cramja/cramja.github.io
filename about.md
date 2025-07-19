@@ -4,18 +4,10 @@ permalink: /about
 title: About
 ---
 
-Hello, my name is Marc Spehlmann.
+Hello, my name is [Marc](https://www.linkedin.com/in/marc-spehlmann-0a60258b/) and you can find me on [github](https://github.com/cramja) though I mostly commit on work accounts so my activity is pretty sparse. I am a software developer with experience in the following areas
+* kubernetes management, development, deployment, troubleshooting, yadda yadda
+* on-prem and cloud deployment, management
+* tinkering in web, databases
 
-I work as a software team lead on security for an automotive cloud platform. In
-the past, I've written identity management systems, components in relation database
-systems, and simulations for high performance computing.
-
-Here's a couple of links.
-
-* [Github](https://github.com/cramja)
-* [LinkedIn](https://www.linkedin.com/in/marc-spehlmann-0a60258b/)
-* [Strava](https://www.strava.com/athletes/22420249)
-*  Play with [gravity]({% post_url 2016-12-31-gravity %}) or [squares]({% post_url 2018-12-31-squares %})
-*  Watch [machines scratch cows](http://i.imgur.com/AqLvXJh.gifv). Or [cows scratch objects](https://gfycat.com/thatalivedogwoodclubgall).
 
 I last updated the site on {{ site.time | date_to_long_string: "ordinal", "US"}}.

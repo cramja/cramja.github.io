@@ -3,33 +3,6 @@ layout: content-sidebar
 ---
 
 <div class="post-list">
-  <h1>📍 Pinned</h1>
-  <ul>
-    {% assign pinnedPosts = site.posts | where:"pinned", true %} {% for post in
-    pinnedPosts %}
-    <li>
-      <div>
-        <div class="post-list-right">
-          <a
-            class="post-list-link"
-            href="{{ post.url | prepend: site.baseurl }}"
-            >{{ post.title }}</a
-          >
-          <div class="post-list-preview">
-            {% if post.short %}
-            <p>{{ post.short }}</p>
-            {% else %}
-            <p>{{ post.content | strip_html | truncatewords:60}}</p>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <h1 id="post-everything">📜 Everything</h1>
-
   <ul>
     {% for post in site.posts %} {% assign category = post.categories[0] %}
     <li class="post-list-row post-list-row-{{category}}">
